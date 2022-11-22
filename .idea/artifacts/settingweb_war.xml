@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="settingweb:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>settingweb</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="settingweb-1.0.0-BUILD-SNAPSHOT.war">
+      <element id="artifact" artifact-name="settingweb:war exploded" />
+    </root>
+  </artifact>
+</component>
